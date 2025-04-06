@@ -3,14 +3,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3.1-blueviolet)](https://www.unrealengine.com/)
 [![Made with Blueprints](https://img.shields.io/badge/Made%20with-Blueprints-blue)](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html)
-[![PaperZD](https://img.shields.io/badge/Uses-PaperZD-orange)](https://paperzd.com/) <!-- Adjust if PaperZD has a specific badge/link -->
+[![PaperZD](https://img.shields.io/badge/Uses-PaperZD-orange)](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) <!-- Adjust if PaperZD has a specific badge/link -->
 
-<!-- === Add a Screenshot or GIF Here! Best visual representation === -->
-<!-- Example: ![Gameplay Screenshot](Docs/gameplay_screenshot.png) -->
-<!-- Consider creating a Docs folder in your repo for images -->
+---
+
+<!-- 
+======================================================================
+=== VISUAL SHOWCASE - BEST PLACE FOR A GIF/KEY SCREENSHOT! ===
+======================================================================
+Highly recommend adding an animated GIF (15-30s loop) or a compelling screenshot here. 
+This is the first thing people see!
+- Create a short video clip (around 1 minute as you planned, then convert a key segment to GIF).
+- Tools like ScreenToGif (Windows) or online converters can help. Keep GIF size reasonable (<10-15MB ideally).
+- Consider creating a 'Docs' or 'Media' folder in your repository to store these images/gifs.
+
+Example (replace with your actual file path):
+-->
 <p align="center">
-  <!-- Placeholder for your awesome visual -->
-  <!-- <img src="link/to/your/cool_gameplay.gif" alt="Arena Gauntlet Gameplay" width="75%"/> -->
+  <!-- <img src="Docs/arena_gauntlet_gameplay.gif" alt="Arena Gauntlet Gameplay GIF" width="80%"/> -->
+  <!-- Or Link to a gameplay video on YouTube/Vimeo if you prefer: -->
+  <!-- **[Watch Gameplay Video (1 Min)](https://your-video-link-here)** -->
 </p>
 
 ---
@@ -49,6 +61,25 @@ This project serves as both a playable game prototype and a demonstration of ski
 
 ---
 
+<!-- 
+======================================================================
+=== ADDITIONAL SCREENSHOTS (Optional Section) ===
+======================================================================
+If you have multiple static screenshots you want to showcase (e.g., different UI screens, 
+specific combat moments, enemy types), you can add a dedicated section like this.
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Docs/screenshot1.png" alt="Screenshot 1 Description" width="45%"/> 
+  <img src="Docs/screenshot2.png" alt="Screenshot 2 Description" width="45%"/>
+  <img src="Docs/screenshot3.png" alt="Screenshot 3 Description" width="45%"/> 
+  <img src="Docs/screenshot4.png" alt="Screenshot 4 Description" width="45%"/>
+</p>
+-->
+
+---
+
 ## 💻 Technology Stack
 
 *   **Engine:** Unreal Engine 5.3.1
@@ -60,9 +91,9 @@ This project serves as both a playable game prototype and a demonstration of ski
 
 ## 📊 Project Status (v1.0)
 
-*   **Complete Core Loop:** Playable from Main Menu to Game Over/Win condition.
-*   **Feature Complete (v1.0 Scope):** All planned core mechanics for this initial version are implemented.
-*   **Stable Build Available:** See the Releases section!
+*   ✅ **Complete Core Loop:** Playable from Main Menu to Game Over/Win condition.
+*   ✅ **Feature Complete (v1.0 Scope):** All planned core mechanics for this initial version are implemented.
+*   ✅ **Stable Build Available:** See the Releases section!
 
 ---
 
