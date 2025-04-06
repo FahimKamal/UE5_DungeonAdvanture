@@ -1,17 +1,27 @@
-# ⚔️ Arena Gauntlet 🏹 - (Work In Progress 🚧)
+# ⚔️ Arena Gauntlet 🏹 - v1.0
 
-## 🎯 Short Description
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3.1-blueviolet)](https://www.unrealengine.com/)
+[![Made with Blueprints](https://img.shields.io/badge/Made%20with-Blueprints-blue)](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html)
+[![PaperZD](https://img.shields.io/badge/Uses-PaperZD-orange)](https://paperzd.com/) <!-- Adjust if PaperZD has a specific badge/link -->
 
-Survive the onslaught! **Arena Gauntlet** is a top-down 2D wave-based arena fighter built with Unreal Engine 5.3.3 (Blueprints & PaperZD). Battle increasingly difficult enemies 👾, upgrade your arsenal, and see how long you can last in the arena!
+<!-- === Add a Screenshot or GIF Here! Best visual representation === -->
+<!-- Example: ![Gameplay Screenshot](Docs/gameplay_screenshot.png) -->
+<!-- Consider creating a Docs folder in your repo for images -->
+<p align="center">
+  <!-- Placeholder for your awesome visual -->
+  <!-- <img src="link/to/your/cool_gameplay.gif" alt="Arena Gauntlet Gameplay" width="75%"/> -->
+</p>
 
-<!-- Optional: Add a cool screenshot or GIF here later! -->
-<!-- ![Gameplay GIF](link/to/your/gif.gif) -->
+---
 
-## 📖 About The Game
+## 🎯 Overview
 
-**Arena Gauntlet** is a 2D top-down arena survival game being developed in Unreal Engine. The core gameplay loop involves the player fighting off waves of enemies within a confined arena (or cave section). After clearing all enemies in a wave, the next, more challenging wave begins 🔥. The difficulty increases over time by introducing stronger enemies and entirely new enemy types.
+**Survive the onslaught!** **Arena Gauntlet** is a fast-paced, top-down 2D wave-based arena fighter built entirely with **Unreal Engine 5.3.1** using **Blueprints** and the **PaperZD** plugin. Battle waves of increasingly difficult enemies 👾, find power-ups, master sword and bow combat, and push your survival skills to the limit in a mysterious, monster-infested cave!
 
-This project also serves as a learning exercise 💡, particularly focusing on 2D game development workflows within Unreal Engine using **Blueprints** and the **PaperZD** plugin. As an open-source project (MIT License), feel free to explore the code, learn from it, or contribute!
+This project serves as both a playable game prototype and a demonstration of skills acquired in Unreal Engine 2D development, Blueprint scripting, and core game systems implementation.
+
+---
 
 ## 📜 Premise
 
@@ -19,68 +29,103 @@ This project also serves as a learning exercise 💡, particularly focusing on 2
 >
 > Trapped within the echoing darkness, the adventurer soon realized they were not alone. The depths stirred, and from the shadows emerged waves of strange, hostile creatures – guardians of this hidden place, awakened by the intrusion. With sword and bow readied, the only path to survival – and perhaps, another way out – lies directly through the relentless onslaught.
 
-## ✨ Key Features (Implemented & Planned)
+---
 
-*   🌟 **Top-Down 2D Arena Combat:** Fast-paced action from a top-down perspective.
-*   🌊 **Wave-Based Survival:** Face endless or progressively harder waves of enemies.
-*   📈 **Increasing Difficulty:** Enemies get tougher, faster, and new types appear as you progress.
-*   ⬆️ **Player Progression:** Start with basic gear and acquire new weapons (Sword & Bow planned).
-*   🕹️ **8-Directional Player Movement:** Smooth character control (implemented using PaperZD).
-*   📘 **Blueprint-Only Project:** Developed entirely using Unreal Engine's Blueprint visual scripting system.
-*   🏗️ **Structured Class Hierarchy:** Uses parent/child Blueprints for organized and reusable code (Player and Enemies inherit from a base character).
+## ✨ Key Features
+
+*   🌟 **Top-Down 2D Arena Combat:** Intense, reactive combat in a confined arena.
+*   🌊 **Wave-Based Survival:** Face progressively harder waves of enemies with dynamic spawning.
+*   🕹️ **Responsive 8-Directional Movement:** Smooth character control powered by PaperZD.
+*   ⚔️ **Melee & Ranged Combat:** Master the **Sword** (2 Damage, requires proximity) and unlock the **Bow** (1 Damage, fires in facing direction).
+*   👾 **Varied Enemies:** Battle distinct foes like the durable **Skeleton** (3 HP) and the charging **Boar** (2 HP).
+*   ❤️ **Health System with Pickups:** Manage your 3 starting health points and find **Health Pickups** to restore 1 HP.
+*   🏹 **Unlockable Ability:** Find the **Bow Pickup** to enable ranged attacks permanently.
+*   🛡️ **Combat Feedback:** Experience **knockback** (player & enemies), **damage flashes** (red tint), temporary **invincibility frames** (player, 2 secs with flickering), and satisfying **enemy death VFX** (skull explosion).
+*   🔊 **Immersive Audio:** Features **background music**, player **footsteps**, distinct sounds for **sword/bow attacks**, enemy attacks, **hits** (player/enemy), **pickups** (unique for health/bow), and enemy deaths.
+*   🖥️ **Essential UI:** Includes a **Main Menu** (Play/Quit), dynamic **Health Bar** (heart icons), and a clear **Game Over/Win Screen**.
+*   🧱 **Contained Arena:** A well-defined level with wall boundaries for focused gameplay.
+*   💡 **Data-Driven Design:** Wave compositions are managed via a **Data Structure**, read by a central **Spawning Manager**.
+*   📘 **100% Blueprint Project:** Developed entirely using Unreal Engine's powerful Blueprint visual scripting system – no C++ required.
+
+---
 
 ## 💻 Technology Stack
 
-*   **Engine:** Unreal Engine 5.3.3
+*   **Engine:** Unreal Engine 5.3.1
 *   **Core Logic:** Blueprints
 *   **2D Animation/Character Logic:** PaperZD Plugin 📜
-*   **Assets:** Freely available public resources 🖼️
+*   **Assets:** Freely available public resources & custom logic 🖼️
 
-##📊 Current Status
+---
 
-*   **Early Development / Prototype** ⏳
-*   Basic 8-directional player movement implemented using PaperZD ✅.
-*   Parent/Child class structure for Characters (Player/Enemy) established ✅.
-*   Core combat loop (attacking, taking damage), enemy AI, wave management system, and weapon mechanics are currently under development or planned 🤔.
+## 📊 Project Status (v1.0)
 
-## ⌨️ Planned Controls (Subject to Change)
+*   **Complete Core Loop:** Playable from Main Menu to Game Over/Win condition.
+*   **Feature Complete (v1.0 Scope):** All planned core mechanics for this initial version are implemented.
+*   **Stable Build Available:** See the Releases section!
 
-*   **Movement:** WASD / Arrow Keys (standard 8-directional).
-*   **Sword Attack:** [Button] - Attacks in the player's current facing/movement direction. 🗡️
-*   **Bow Attack:** [Button] - Fires an arrow towards the mouse cursor's position. 🖱️🏹
+---
+
+## ⌨️ Controls
+
+*   **Movement:** WASD / Arrow Keys (8 Directions)
+*   **Sword Attack:** [Button - e.g., Left Mouse Button] - Melee attack in facing direction (requires proximity).
+*   **Bow Attack:** [Button - e.g., Right Mouse Button] - Fires an arrow in facing direction (Requires Bow Pickup).
+*   **Menu Interaction:** Mouse Click
+
+---
 
 ## ▶️ Getting Started / Running the Project
 
-**Option 1: Play Packaged Build (When Available)** 🎮
+**Option 1: Play Packaged Build (Recommended for Players)** 🎮
 
-*   Once the game reaches a playable state, pre-packaged builds (ZIP files) will be available in the **Releases** section of this GitHub repository.
-*   Download the latest release ZIP file.
-*   Extract the contents.
-*   Run the game executable (e.g., `ArenaGauntlet.exe`). No Unreal Engine installation needed!
+1.  Go to the **[Releases](https://github.com/FahimKamal/UE5_DungeonAdvanture/releases)** section of this repository.
+2.  Download the latest `ArenaGauntlet_vX.X.zip` file.
+3.  Extract the contents of the ZIP file.
+4.  Run the game executable (e.g., `ArenaGauntlet.exe`). No Unreal Engine installation needed!
 
-**Option 2: From Source (Requires Unreal Engine)** 🔧
+**Option 2: From Source (For Developers - Requires Unreal Engine 5.3.1)** 🔧
 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/FahimKamal/UE5_DungeonAdvanture.git
     ```
 2.  **Navigate** to the cloned project directory (`UE5_DungeonAdvanture`).
-3.  **Install Unreal Engine 5.3.3** (if you haven't already) via the Epic Games Launcher.
-4.  **Right-click** the `.uproject` file (`UE5_DungeonAdvanture.uproject`) and select "Generate Visual Studio project files" (even if it's Blueprint-only, this can help ensure everything is set up correctly).
-5.  **Open** the `.uproject` file by double-clicking it. This will launch the Unreal Editor and load the project.
+3.  **Ensure Unreal Engine 5.3.1** is installed via the Epic Games Launcher.
+4.  **Right-click** the `.uproject` file (`UE5_DungeonAdvanture.uproject`) and select "Generate Visual Studio project files".
+5.  **Open** the `.uproject` file by double-clicking it.
 6.  **Press Play** in the editor toolbar to run the game.
 
-## 🔮 Future Plans
+---
 
-*   🛠️ Implement core combat mechanics (Sword & Bow).
-*   🧠 Develop basic and advanced enemy AI behaviors.
-*   🔄 Create the wave spawning and management system.
-*   👽 Introduce multiple enemy types with unique characteristics.
-*   📊 Add UI elements (Health, Score, Wave Number).
-*   ⚖️ Refine gameplay balance and polish features.
-*   🖥️ Implement an **introductory screen** displaying the story premise and basic controls/objectives.
-*   📦 Provide packaged builds in the Releases section.
+## 🌱 Learning & Development Insights
+
+This project was a valuable deep dive into creating a 2D game within Unreal Engine, focusing entirely on **Blueprints**. Key learning areas included:
+
+*   **2D Workflow:** Utilizing PaperZD for efficient sprite animation and state management.
+*   **Combat Systems:** Implementing melee/ranged attacks, damage models, health, knockback, and invincibility frames.
+*   **AI Basics:** Creating simple enemy detection, pathfinding (move-to), and attack triggers.
+*   **Game Loop Management:** Designing wave progression, enemy tracking, and win/loss conditions.
+*   **Modular Design:** Using Blueprint Components (`BPC_Health`) for reusable systems.
+*   **Data Management:** Employing Data Structures for scalable wave design via a Spawning Manager.
+*   **UI Implementation:** Creating menus and dynamic HUD elements using UMG.
+*   **Audio Integration:** Implementing various sound effects and background music.
+
+---
+
+## 🔮 Future Plans / Potential Enhancements
+
+While v1.0 is complete, potential future directions could include:
+
+*   ✨ **More Content:** Adding new enemy types, more complex wave patterns, additional pickup types (e.g., temporary power-ups).
+*   🎨 **Visual Variety:** Introducing different player character skins/options.
+*   🗺️ **Level Expansion:** Creating multiple arenas/levels with distinct environments (e.g., brighter vs. darker themes).
+*   ⏸️ **Pause Menu:** Implementing in-game pause functionality.
+*   💯 **Scoring System:** Adding a score tracker for player performance.
+*   ⚙️ **Further Polish:** Refining animations, balancing difficulty, and enhancing visual effects.
+
+---
 
 ## ©️ License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. This means the project is open source and you are free to use, modify, and distribute it according to the license terms. 📄
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use, modify, and distribute it according to the license terms. 📄
