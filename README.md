@@ -70,15 +70,22 @@ This project serves as both a playable game prototype and a demonstration of ski
 If you have multiple static screenshots you want to showcase (e.g., different UI screens, 
 specific combat moments, enemy types), you can add a dedicated section like this.
 
+
+-->
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Docs/screenshot1.png" alt="Screenshot 1 Description" width="45%"/> 
-  <img src="Docs/screenshot2.png" alt="Screenshot 2 Description" width="45%"/>
-  <img src="Docs/screenshot3.png" alt="Screenshot 3 Description" width="45%"/> 
-  <img src="Docs/screenshot4.png" alt="Screenshot 4 Description" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/189a0382-7552-4cc3-a8db-3a258d71a05a" alt="Screenshot 1 Description" width="45%"/> 
+  <img src="https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769" alt="Screenshot 2 Description" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/d73de29a-29aa-4f61-ad21-deb25abd1992" alt="Screenshot 3 Description" width="45%"/> 
+  <img src="https://github.com/user-attachments/assets/2a5d410a-2d46-428e-a815-2629c22ff00f" alt="Screenshot 4 Description" width="45%"/>
 </p>
--->
+<!-- [Screenshot 2025-04-07 003901](https://github.com/user-attachments/assets/189a0382-7552-4cc3-a8db-3a258d71a05a)
+[Screenshot 2025-04-07 004811](https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769)
+[Screenshot 2025-04-07 004411](https://github.com/user-attachments/assets/d73de29a-29aa-4f61-ad21-deb25abd1992)
+
+[Screenshot 2025-04-07 004321](https://github.com/user-attachments/assets/2a5d410a-2d46-428e-a815-2629c22ff00f) -->
+
 
 ---
 
