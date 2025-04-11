@@ -147,17 +147,18 @@ This project was a valuable deep dive into creating a 2D game within Unreal Engi
 
 ---
 
-## 🔮 Future Plans / Potential Enhancements
+## 🔮 Future Plans / Potential Enhancements (Post v1.0)
 
-While v1.0 is complete, potential future directions could include:
+While v1.0 provides a complete arena survival experience, future development could evolve the game towards a **cave-maze adventure**:
 
-*   ✨ **More Content:** Adding new enemy types, more complex wave patterns, additional pickup types (e.g., temporary power-ups).
-*   🎨 **Visual Variety:** Introducing different player character skins/options.
-*   🗺️ **Level Expansion:** Creating multiple arenas/levels with distinct environments (e.g., brighter vs. darker themes).
-*   ⏸️ **Pause Menu:** Implementing in-game pause functionality.
-*   💯 **Scoring System:** Adding a score tracker for player performance.
-*   ⚙️ **Further Polish:** Refining animations, balancing difficulty, and enhancing visual effects.
-
+*   🗺️ **Level Expansion & Exploration:** Transition from a single arena to a **multi-area, interconnected cave maze** structure for the player to navigate and explore.
+*   🗝️ **Progression Gates:** Introduce **blocked paths or locked doors** between cave sections that only open after defeating all enemies or clearing specific waves within an area, guiding player progress through the maze.
+*   💎 **Loot & Rewards:** Add discoverable **treasures** or rewards hidden within the cave system (e.g., more powerful weapon variants, permanent stat upgrades like max health increases, health potions, potentially an XP/leveling system element).
+*   ✨ **More Content:** Expand the bestiary with **new enemy types** featuring different attack patterns or abilities, and design more complex wave compositions for different areas.
+*   🎨 **Visual Variety:** Introduce different **player character skins/options** and create more distinct visual themes for different sections of the cave maze (e.g., crystal caves, lava tunnels, overgrown areas).
+*   ⏸️ **Quality of Life:** Implement an in-game **Pause Menu**.
+*   💯 **Scoring System:** Add an optional score tracker for performance/completion time.
+*   ⚙️ **Further Polish:** Continue refining animations, balancing difficulty across the expanded scope, enhancing visual effects, and improving audio cues.
 ---
 
 ## ©️ License
